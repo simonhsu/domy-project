@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la reference/)",
+      "Bash(ls -la images/)",
+      "Bash(ls -la output/)",
+      "Bash(ls -la \"{scripts,images,output,reference}/\")",
+      "WebSearch",
+      "Bash(winget install *)",
+      "Bash(pip install *)",
+      "Bash(pip show *)"
+    ]
+  }
+}

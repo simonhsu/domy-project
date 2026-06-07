@@ -1,0 +1,55 @@
+# ===== B-Roll 生成系統設定檔 =====
+# 改完任何一項後，依 README 的「微調教學」重跑對應階段即可。
+
+language: zh-TW              # 劇情/旁白語言
+aspect_ratio: "9:16"        # 9:16(直向) / 16:9(橫向) / 1:1(方形)
+resolution:
+  width: 1080
+  height: 1920
+
+scenes:
+  count: 12                  # 分鏡(鏡頭)數量
+  target_total_sec: 40     # 影片目標總長度（給 AI 的提示，非硬性）
+
+models:
+  text:  gemini-2.5-flash            # 寫劇情/分鏡
+  image: gemini-2.5-flash-image      # 出圖（角色一致性）
+  tts:   gemini-2.5-flash-preview-tts # 旁白配音
+
+image:
+  # 全部場景共用的畫面風格描述（英文效果通常較佳）
+  style_suffix: "cinematic, soft natural lighting, shallow depth of field, highly detailed, vertical 9:16 composition"
+
+# A-Roll / B-Roll 多圖架構
+# A-Roll = 旁白(腳本)；B-Roll = 每段旁白底下「多張」支援畫面（不同鏡位/角度）
+broll:
+  per_scene: 2                # 每段旁白配幾張 B-Roll（總圖數 = scenes.count × 這個值）
+  sec_per_shot_target: 2.5    # 目標每張秒數（提示 AI 用；實際依旁白音長平分）
+  character_strategy: mixed   # mixed=部分帶角色 / all=全部帶角色 / none=全部不帶
+  micro_transition_sec: 0.3   # 同一段內 B-Roll 之間的微轉場
+
+tts:
+  voice: Kore              # 旁白聲音：Kore / Puck / Charon / Aoede / Fenrir ... 等
+  style: "溫暖、沉穩、有故事感的旁白語氣"
+
+video:
+  fps: 30
+  kenburns_zoom: 1.15      # Ken Burns 縮放幅度（1.0=不縮放, 1.2=明顯）
+  transition_sec: 0.6      # 場景間轉場(淡入淡出)秒數
+  pad_sec: 0.5             # 每段旁白後保留的緩衝秒數
+  bgm:
+    file: assets/music/bgm.mp3   # 背景音樂檔（沒有檔案就自動略過）
+    volume: 0.18                 # 背景音樂音量(0~1)，旁白為主所以調低
+    loop: true                   # 音樂不夠長時循環
+
+subtitles:
+  enabled: true                  # 是否燒錄字幕（false=不要字幕）
+  split_by_punctuation: true     # 依標點把長句切成多段短字幕
+  max_chars_per_line: 16         # 每行最多字數（超過自動換行）
+  font: "Microsoft JhengHei"     # 字型（繁中建議微軟正黑體）
+  font_size: 80
+  primary_color: "&H00FFFFFF"    # 字體顏色 (ASS 格式 = &H00BBGGRR，白色)
+  outline_color: "&H00000000"    # 外框顏色（黑色）
+  outline: 4                     # 外框粗細
+  shadow: 0                      # 陰影
+  margin_v: 350                  # 字幕距畫面底部的高度(像素)

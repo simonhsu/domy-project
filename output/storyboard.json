@@ -1,0 +1,246 @@
+{
+  "title": "放下第二支箭：接受「如是」的智慧",
+  "logline": "一支關於自我接納與寬容的短片，探討當我們抗拒既定事實或試圖改變他人時，如何為自己帶來不必要的痛苦，並學習透過接受「如他所是」來找到真正的平靜。",
+  "scenes": [
+    {
+      "id": 1,
+      "summary": "呈現日常生活中遇到不順心的情況，引導觀眾共鳴。",
+      "narration": "生活中總有不順遂，那些突如其來的挫折，像一記悶棍打在心上，讓人措手不及。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "1a",
+          "shot_type": "close-up",
+          "with_character": true,
+          "image_prompt": "Close-up of a person's hand clenching into a fist on a table, knuckles white, showing frustration and tension. Soft, muted lighting, vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "1b",
+          "shot_type": "cutaway",
+          "with_character": false,
+          "image_prompt": "Cutaway shot of a broken coffee cup shattered on a kitchen floor, a small puddle of coffee around it. Natural morning light, conveying an unexpected mess and disruption. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "summary": "介紹佛家「第一支箭」的概念，即客觀存在的痛苦是無法避免的。",
+      "narration": "佛家說，受苦就像中箭。第一支箭是客觀存在的痛，身體的病痛、環境的變故，這些是我們無法避免的。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "2a",
+          "shot_type": "medium",
+          "with_character": true,
+          "image_prompt": "Medium shot of a person wincing slightly, holding their forehead, conveying a subtle physical ache or discomfort, in a quiet, softly lit room. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "2b",
+          "shot_type": "detail",
+          "with_character": false,
+          "image_prompt": "Detail shot of a wilting flower petal, a single dewdrop clinging to it, slightly out of focus background, symbolizing decay and impermanence. Soft, melancholic light. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "summary": "解釋「第二支箭」是主觀的心理反應，加重痛苦。",
+      "narration": "但如果我們心生怨恨、抗拒，對著已經發生的事情不肯放手，那等於是親手向自己射出第二支箭。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "3a",
+          "shot_type": "over-shoulder",
+          "with_character": true,
+          "image_prompt": "Over-shoulder shot of a person looking out a window with a troubled, resentful expression, shadows emphasizing their somber mood. Cold, dim lighting. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "3b",
+          "shot_type": "pov",
+          "with_character": false,
+          "image_prompt": "POV shot from inside a car during a heavy rainstorm, raindrops streaking across the windshield, conveying internal turmoil and resistance to external conditions. Dark, moody atmosphere. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "summary": "強調主觀抗拒所造成的痛苦遠超客觀事實。",
+      "narration": "這第二支箭的殺傷力，往往比第一支箭要大得多。它源於我們內心的不接受，讓苦痛無限放大。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "4a",
+          "shot_type": "close-up",
+          "with_character": true,
+          "image_prompt": "Extreme close-up on a person's tear-filled eyes, but holding back tears, expressing deep inner struggle and contained pain. Soft, diffused light. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "4b",
+          "shot_type": "cutaway",
+          "with_character": false,
+          "image_prompt": "Cutaway shot of a tightly tangled knot of ropes, lit dramatically with harsh shadows, symbolizing complex, self-inflicted emotional struggles and entrapment. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "summary": "將「第二支箭」的理論應用到對自我的批判，不接受自己的樣子。",
+      "narration": "這種不接受，首先指向我們自己。當我們覺得「我不應該是這樣」，或「我應該更好」的時候。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "5a",
+          "shot_type": "medium",
+          "with_character": true,
+          "image_prompt": "Medium shot of a person looking at their reflection in a slightly distorted antique mirror, a look of self-disappointment and inadequacy on their face. Dim, introspective lighting. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "5b",
+          "shot_type": "wide",
+          "with_character": false,
+          "image_prompt": "Wide shot of an empty, minimalist room with a single, slightly askew chair in the center, symbolizing feelings of not belonging or fitting in. Clean, cool lighting. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "summary": "闡述試圖改變自己以符合外界標準會帶來痛苦。",
+      "narration": "試圖扭曲自己去符合某個理想的模樣，就像親手把自己塞進不合身的框架，只會給心靈帶來不必要的折磨。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "6a",
+          "shot_type": "close-up",
+          "with_character": true,
+          "image_prompt": "Close-up of a hand tightly gripping a pencil, almost breaking it, on a desk filled with crumpled papers, showing internal pressure and struggle to conform or achieve perfection. Harsh overhead light. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "6b",
+          "shot_type": "detail",
+          "with_character": false,
+          "image_prompt": "Detail shot of a meticulously arranged but rigid bonsai tree, its branches tightly wired into unnatural shapes, symbolizing forced perfection and unnatural growth. Soft, artificial light. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "summary": "將主題轉向對他人的不接受和試圖改變。",
+      "narration": "同樣的，每個人都有其獨特的背景和價值觀。當你試圖改變他人，以符合我們的標準時。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "7a",
+          "shot_type": "over-shoulder",
+          "with_character": true,
+          "image_prompt": "Over-shoulder shot of a person earnestly talking to an unmoving, slightly annoyed friend, in a cafe setting, showing a one-sided attempt to persuade or lecture. Warm, but slightly tense lighting. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "7b",
+          "shot_type": "cutaway",
+          "with_character": false,
+          "image_prompt": "Cutaway shot of two intertwined tree roots growing in visibly different directions, subtle forest light, illustrating inherent differences in paths and perspectives. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "summary": "描述試圖改變他人帶來的摩擦和痛苦。",
+      "narration": "這會是另一個痛苦的來源，引發無謂的衝突與不適，最終傷害的，是彼此的關係與自己的心。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "8a",
+          "shot_type": "medium",
+          "with_character": true,
+          "image_prompt": "Medium shot of a person turning their head slightly away, a look of frustration and exasperation on their face, during a tense, unspoken disagreement. Cool, distant lighting. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "8b",
+          "shot_type": "detail",
+          "with_character": false,
+          "image_prompt": "Detail shot of two different puzzle pieces that are forced together but don't quite fit, showing visible gaps and strain, emphasizing incompatibility and friction. Clear, symbolic lighting. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "summary": "提出真正的尊重在於接受他人的本來面貌。",
+      "narration": "真正的尊重，是允許他人「如他所是」，給予他們空間，展示他原有的面貌，無需改變。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "9a",
+          "shot_type": "close-up",
+          "with_character": true,
+          "image_prompt": "Close-up of a person with a gentle, understanding smile, eyes conveying warmth and acceptance, softly lit by natural light. Serene, compassionate expression. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "9b",
+          "shot_type": "wide",
+          "with_character": false,
+          "image_prompt": "Wide shot of a diverse group of people walking casually in a park, each unique, bathed in warm afternoon sunlight, conveying a sense of peace and harmonious individuality. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "summary": "將「第二支箭」應用到對現實世界的不滿和抗拒。",
+      "narration": "不僅是對自己、對他人，甚至是對現實。若我們覺得「它應該是另外一種樣子」，而非「它就是這個樣子」。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "10a",
+          "shot_type": "pov",
+          "with_character": true,
+          "image_prompt": "POV shot looking at a dreary, rainy street through a window, character's hand resting on the cold glass, a sense of longing for change or a different reality. Muted, cool tones. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "10b",
+          "shot_type": "wide",
+          "with_character": false,
+          "image_prompt": "Wide shot of an old, weathered stone wall, strong and unyielding against a vast, indifferent sky, symbolizing immutable reality and the passage of time. Overcast, natural light. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "summary": "強調對現實的抗拒只會傷害自身，無法改變客觀事實。",
+      "narration": "當我們抗拒「如實」的當下，當我們不願接受現實的模樣時，所傷害的，終究只是自己內心的平靜。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "11a",
+          "shot_type": "medium",
+          "with_character": true,
+          "image_prompt": "Medium shot of a person sitting alone in a quiet room, head bowed slightly, a subtle look of weariness and quiet resignation on their face. Soft, melancholic lighting. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "11b",
+          "shot_type": "cutaway",
+          "with_character": false,
+          "image_prompt": "Cutaway shot of a delicate glass object, perhaps a sculpture, with a visible crack, reflecting a distorted image. Suggests fragility and self-inflicted harm through resistance. Soft, focused light. Vertical 9:16, no text/watermark."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "summary": "總結，接受「如是」是通往內心平靜和自由的道路。",
+      "narration": "唯有接受「如他所是」，放下那些不必要的期待與掙扎，才能真正釋懷，找到內心的自由與平靜。",
+      "duration_sec": 5.0,
+      "b_rolls": [
+        {
+          "id": "12a",
+          "shot_type": "close-up",
+          "with_character": true,
+          "image_prompt": "Close-up of a person taking a deep, calming breath, a serene expression slowly emerging on their face, eyes gently closed, bathed in soft morning light. A sense of peace and release. Vertical 9:16, no text/watermark."
+        },
+        {
+          "id": "12b",
+          "shot_type": "wide",
+          "with_character": false,
+          "image_prompt": "Wide shot of a tranquil lake reflecting a clear sky and distant mountains, calm and expansive, symbolizing profound peace, clarity, and freedom. Golden hour lighting. Vertical 9:16, no text/watermark."
+        }
+      ]
+    }
+  ]
+}
